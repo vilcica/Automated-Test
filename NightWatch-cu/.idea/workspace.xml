@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Oj5qK9urGgu8h5U09XwuKooBO0" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="bbb&#10;" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\maria.vilcica\Desktop\NightWatchCu\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maria.vilcica\Desktop\NightWatchCu\features\yahooTests" />
+      <recent name="C:\Users\maria.vilcica\Desktop\NightWatchCu\features\googleTests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="" />
+      <created>1564478354107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564478354107</updated>
+      <workItem from="1564478355325" duration="8717000" />
+      <workItem from="1564570885923" duration="1712000" />
+      <workItem from="1564657524380" duration="6194000" />
+      <workItem from="1564735389059" duration="9817000" />
+      <workItem from="1564749329308" duration="408000" />
+      <workItem from="1565003481865" duration="7961000" />
+      <workItem from="1565073995380" duration="7438000" />
+      <workItem from="1565166922974" duration="8892000" />
+      <workItem from="1565177184743" duration="6092000" />
+      <workItem from="1565246678598" duration="1469000" />
+      <workItem from="1565348975629" duration="8995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
