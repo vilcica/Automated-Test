@@ -7,8 +7,8 @@ Given(/^The login page is opening$/, () => {
 });
 Then(/^User enter username and password$/, () => {
   return client
-    .setValue(csslib.LogInElements.usernameField(), "radu.pop")
-    .setValue(csslib.LogInElements.passwordField(), "test")
+    .setValue(csslib.LogInElements.usernameField(), 'radu.pop')
+    .setValue(csslib.LogInElements.passwordField(), 'test')
     .pause(1000)
 });
 Then(/^User submit Login$/, () => {
