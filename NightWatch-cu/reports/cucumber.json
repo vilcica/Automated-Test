@@ -1,21 +1,26 @@
 [
   {
     "keyword": "Feature",
-    "name": "Log into the Timesheet application",
-    "line": 1,
-    "id": "log-into-the-timesheet-application",
-    "tags": [],
-    "uri": "features\\LogInTest\\testLogIn.feature",
+    "name": "Check if menu elements appear",
+    "line": 2,
+    "id": "check-if-menu-elements-appear",
+    "tags": [
+      {
+        "name": "@Menu",
+        "line": 1
+      }
+    ],
+    "uri": "features\\MenuTest\\MenuTest.feature",
     "elements": [
       {
-        "id": "log-into-the-timesheet-application;log-in-using-valid-credentials",
+        "id": "check-if-menu-elements-appear;check-features-of-menus",
         "keyword": "Scenario",
-        "line": 13,
-        "name": "Log in using valid credentials",
+        "line": 8,
+        "name": "Check features of menus",
         "tags": [
           {
-            "name": "@validcredentials",
-            "line": 3
+            "name": "@Menu",
+            "line": 1
           }
         ],
         "type": "scenario",
@@ -24,645 +29,46 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "The user opens the LogIn Page",
+            "name": "LogIn page",
             "match": {
-              "location": "features\\step_definitions\\logInSteps.js:5"
+              "location": "features\\step_definitions\\login-generic-step.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7437000000
+              "duration": 7537000000
             }
           },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "The user write his username radu.pop",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 861000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "The user write his password test",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 254000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The user submit his Login",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 121000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "The user click logout",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 686000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-valid-credentials",
-        "keyword": "Scenario",
-        "line": 14,
-        "name": "Log in using valid credentials",
-        "tags": [
-          {
-            "name": "@validcredentials",
-            "line": 3
-          }
-        ],
-        "type": "scenario",
-        "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "The user opens the LogIn Page",
+            "line": 9,
+            "name": "The user is logged in",
             "match": {
-              "location": "features\\step_definitions\\logInSteps.js:5"
+              "location": "features\\step_definitions\\MenuTemplates.js:5"
             },
             "result": {
-              "status": "passed",
-              "duration": 31000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "The user write his username razvan.vuscan",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 312000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "The user write his password test",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 266000000
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "The user submit his Login",
+            "line": 10,
+            "name": "Check if left and top menus appear",
             "match": {
-              "location": "features\\step_definitions\\logInSteps.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 87000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "The user click logout",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 684000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-valid-credentials",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Log in using valid credentials",
-        "tags": [
-          {
-            "name": "@validcredentials",
-            "line": 3
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "The user opens the LogIn Page",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 44000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "The user write his username radu.pop@arobs.com",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 316000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "The user write his password test",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 229000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The user submit his Login",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 87000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "The user click logout",
-            "match": {
-              "location": "features\\step_definitions\\logInSteps.js:21"
+              "location": "features\\step_definitions\\MenuTemplates.js:8"
             },
             "result": {
               "status": "failed",
-              "duration": 1100000000,
-              "error_message": "Timed out while waiting for element <.log> to be present for 1000 milliseconds. - Expected \"visible\" but got: \"not found\"\n\n    at World.Then (C:\\Users\\maria.vilcica\\Desktop\\NightWatchCu\\features\\step_definitions\\logInSteps.js:22:17)"
+              "duration": 1446000000,
+              "error_message": "Timed out while waiting for element <#root > div > div:nth-child(1) > div> to be visible for 1000 milliseconds. - Expected \"visible\" but got: \"not visible\"\n\n    at World.Then (C:\\Users\\maria.vilcica\\Desktop\\Repsitory\\Automated-Test\\NightWatch-cu\\features\\step_definitions\\MenuTemplates.js:9:19)"
             },
             "embeddings": [
               {
-                "data": "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2Fx00cdy8sknp6qqaq/G210PP/xwTjzxxA6dY39rr+f0+c9/PlOmTGmHinbU2esDoPOzogCAPdKjR4+cffY5Ofzww1vt89hjj2XGjBm7vapg3rx5+eUvW7/TQWVlv5x77rkd/qG2Mxs/fnz++q+/tMuDDXfH3Lm/y9SpU3PWWWfl2muvzUsv7V34AAB0T4ICAPbYqFGjct55f9Zmn3vumZ4VK1bscqy1a9fmtttuzYYNr7XaZ/LkyRk/fvwe19mdlJWVZdKkSfnud6/JO96x+6sR2lJfX58f/ehHufDCC/OTn/wkDQ0N7TIuANC1CQoA2GPl5eU555xJOeaYY1rts2DBU7n33nt2uR/+iSeeyEMPPdRq+0EHDc7kyZPTu3fvva63uygrK8uJJ56YG274l5x33nntNm59fX2uvvrqfP3rX9utcAcA6N4EBQDslWHDhuWss85qs89dd/0iy5Yta7V91apVuf3223e5muA979m92wMeKIYPH55vf/vbueWWm3Peeee1y3aEJJk5c1amTp2a5557rl3GAwC6JkEBAHulrKwsZ555ZpsHDC5btiz33DM9TU1NO21/9NFH8sADD7R6/eGHH57zzjs/vXr12ud6u5vy8vIceeRR+c53vpN7770v3/jGN3L00e/Z53HnzZuX733v2qxevbodqgQAuiJ3PQBgrw0ZMiQXXPCRPPbYY632ufvuu3PaaadnzJgxOzz+6quv5rbbft7m+Kefflre+c53tkut3dmgQYPy8Y9/PBdffHFefvnl/OY3v8kvfzkjc+b8dq/GmzlzVo47bkIuueSSlJWV7VNtNTU1GT16dCoqOuYtx/r16/Pkkws6ZGwAOFAJCgDYJx/84Ek5/fTTMnPmrJ22r1jxUn7xi7vyrne9q1gZ0NLSkgcffLDNgGH06NE577zz06NHjw6pe29Mm3ZVJk8+t9RltKq8vDzDhg3Lxz72sXzsYx/L2rVrM3/+/Nx9992ZPfvXbW7xeLPbb789J5544h7dxnFnxo4dm2nTpmXAgAH7NE5r5s2bl0984hMdMnZrTjjhhA59Tvuqs9cHQOdn6wEA+6R///4577zz29wnf//992fJkiXFzytWrMidd97Z5rjnnHN2Dj300Har80DUv3//nHTSSbn66qtz77335Stf+Upqamp269olS5bkwQcf7OAKAYDOSFAAwD47/vjjc9ppp7favnJlXaZPvzuvv/56kuS3v/1t5s2b12r/Y445JuecMynl5f431V4GDRqUT33qU7n55pszadKk3brm979/Ohs2bOjgygCAzsY7MAD2WVVVVS644CM56KDBrfZ55JFH88ILL2Tt2rV58MHZbY53/vnnZ9iwYe1dJtlyx4S///u/z8UXf2yXfZcvX576+vr9UBUA0JkICgBoF2PHviennnpqq+3Lli3Lww8/nEWLFuXRRx9ttd/xxx+fk046aZ8P0aN1lZWVufTST2T06NFt9nvttYZiFQgAcOAQFADQLnr37p0LLrgww4Yd0mqf+++/L//xH//R5qF6F1zwkQwZMqQjSmQ7w4cPz/ve9742+yxZssRtEgHgACQoAKDdHHHEETn33NbvCrBgwVN56KGHWm0/9dRT8/73f6AjSuNNKioqMmjQwFKXAQB0QoICANpNjx49cvbZ5+Twww/f42srK/vlwx/+cAYNGtQBlbEzu7oDwmGHHZrKysr9VA0A0FkICgBoV6NGjcp55/3ZHl932mmn5/jjj++AimjNn/60qs32qqqq9OnTZz9VAwB0FoICANpVeXl5zjlnUo455pjdvqaysl/OPffcVFVVdWBlbG/Dhg154YXn2+wzePDgDBgwYD9VBAB0FoICANrdsGHDctZZZ+12/8mTJ2f8+PEdWFHX1dTUlP/6r//KCSeckDPPPCM33XRTNm3atM/jvvTSS1m4cFGbfQ47bGT69u27z3MBAF2LoACAdldWVpYzzzxzt7YSHHTQ4EyePDm9e/feD5V1PbNnz84113w39fX1WbHipVx11VX5ylf+Jk8/vTgtLS17NWZDQ0N+9rOfZdmyZW32O/bYY1NRUbFXcwAAXZegAIAOMWTIkFxwwUd22W/y5Ml5z3uO3g8VdT11dXW57bZb33I7yV//enY+85nP5sc//nHWrFmzR2O+/vrr+c//vCk/+9nP2ux39NHvyZFHHrnHNQMAXZ+gAIAO88EPnpTTTz+t1fZhww7JOedMSq9evfZjVV1DS0tL7rvvvsye/eBO2+vr6/Pd7343F1300dxwww2pra1tc4VBc3NzFi1alL/5my/ne9/7x13O/4EPnJBDDjlkr+sHALqunqUuAIDuq3///rn00k9k8eLFWbHipR3aKiv75ZJLLu1S31pPnfq1TJ36tXYf96KLPpqp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",
+                "data": "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yh//8R/n2muvyV133ZXVq1eLBgBAjwkFAPTYkCFDcuWVV+XEE0/ocp/HHnssjz76aNrb2/fp2EuXLsncuXO73D5s2NGZNu2K1NXV7dNxD3VVVVW54IILcs455+zzc5csWZqbb745l1xySa666sr8wz/8Q373u9+JBgBAtwZVegAADi3vf//7c/nll+f22+/ocp+HH344F1xwQY9vEWhtbc399/8469Z1/TF/kydftF8Xy71p5syvZObMrxzQMU477bTMnj07J598co+fM2rUqPz3//7f87vfrep2xUV3fv3rl/LNb34z3/zmNzNx4gczffpn8rGPfSw1NTX7dbye+vnPf57zzz+/T89xsPXW9/TFL34xN9xwQy9MtKv+Ph8A/Z8VBQDsk4EDB+aTn7w0p556apf7PPPMM5k3b16PVxUsWrQojzzS9ScdDBt2dC6//PI+v6jtzyZOnJg/+7Ob9vrGhj3x7LP/kZkzZ2bKlCn51re+ldde27/4AAAcnoQCAPbZ2LFjM23aH3W7z8MPP5TVq1fv9VgtLS257757s3nzm13uM3Xq1EycOHGf5zycVFVV5bLLLsvs2d/MKaf0fDVCd5qbm/O9730vV111Vf75n/85ra2tvXJcAODQJhQAsM8GDBiQSy+9LBMmTOhynyVLluYnP3l4r/fD//u//3ueeuqpLrcfe+zITJ06NUOGDNnveQ8XVVVVOf/88/Ptb38n06ZN67XjNjc355ZbbslXv/qVHsUdAODwJhQAsF9OPPHETJkypdt95sz5t6xcubLL7W+88Ubuv//+va4mOOusnn084JGioaEhf/3Xf5177rk706ZN65XbEZJk/vwFmTlzZn7729/2yvEAgEOTUADAfqmqqsoll1zS7RsMrly5Mg8//FC2bdu2x+2//OUv8thjj3X5/FNPPTXTpl2RwYMHH/C8h5sBAwbk9NPPyNe//vX85Cc/zde+9rWcffZZB3zcRYsW5dZbv5X169f3wpQAwKHIpx4AsN9GjRqVK6/8VJ555pku93nwwQczefJFOfPMM3d5fO3atbnvvh91e/yLLpqc973vfb0y6+HsmGOOyWc/+9lcffXVef311/Ozn/0sjzwyLwsXPr1fx5s/f0E+9KE/zDXXXJOqqqoDmq2+vj6nnXZaqqv75p8cmzZtynPPLemTYwPAkUooAOCAfPSjF+SiiyZn/vwFe9y+evVr+bd/m5M/+IM/KCsD2tvb8+STT3YbGE477bRMm3ZFBg4c2Cdz749Zs27O1KmXV3qMLg0YMCAnnnhiPvOZz+Qzn/lMWlpasnjx4jz44IN54onHu73FY3f3339/zj///H36GMc9GTduXGbNmpXhw4cf0HG6smjRolx33XV9cuyunHfeeX36PR2o/j4fAP2fWw8AOCB1dXWZNu2Kbu+Tnzt3bl588cXy9erVq/PAAw90e9xLL/1kxowZ02tzHonq6upywQUX5JZbbslPfvLTzJgxI/X19T167osvvpgnn3yyjycEAPojoQCAA3bOOedk8uSLuty+bl1THnrowbz99ttJkqeffjqLFi3qcv8JEybk0ksvy4AB/m+qtxxzzDH5/Oc/n7vvvjuXXXZZj57zq1+9kM2bN/fxZABAf+NfYAAcsJqamlx55ady7LEju9znF7/4ZV599dW0tLTkySef6PZ4V1xxRU488cTeHpN0fGLCX/3VX+Xqqz+z131XrVqV5ubmgzAVANCfCAUA9Ipx487KhRde2OX2lStX5uc//3mWL1+eX/7yl13ud8455+SCCy444DfRo2vDhg3Ltddel9NOO63b/d58s7WsAgEAjhxCAQC9YsiQIbnyyqty4okndLnP3Lk/zfe///1u31Tvyis/lVGjRvXFiHTS0NCQc889t9t9XnzxRR+TCABHIKEAgF7z/ve/P5df3vWnAixZsjRPPfVUl9svvPDCfPjDH+mL0dhNdXV1jjlmRKXHAAD6IaEAgF4zcODAfPKTl+bUU0/d5+cOG3Z0/viP/zjHHHNMH0zGnuztExBOOmlMhg0bdpCmAQD6C6EAgF41duzYTJv2R/v8vMmTL8o555zTBxPRld///o1ut9fU1OSoo446SNMAAP2FUABArxowYEAuvfSyTJgwocfPGTbs6Fx++eWpqanpw8nobPPmzXn11Ve63WfkyJEZPnz4QZoIAOgvhAIAet2JJ56YKVOm9Hj/qVOnZuLEiX040aFr27Zt+dd//decd955ueSSi3PXXXdly5YtB3zc1157LcuWLe92n5NOOjlDhw494HMBAIcWoQCAXldVVZVLLrmkR7cSHHvsyEydOjVDhgw5CJMdep544ol885uz09zcnNWrX8vNN9+cGTP+Ii+88Hza29v365itra354Q9/mJUrV3a7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",
                 "mime_type": "image/png"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "Log in using invalid credentials",
-        "tags": [
-          {
-            "name": "@invalidcredentials",
-            "line": 18
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "The user opens the Login Page",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 41000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "The user write an invalid username empty",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1264000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "The user write an invalid password empty",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1246000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "The user submit his login",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2250000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 28,
-        "name": "Log in using invalid credentials",
-        "tags": [
-          {
-            "name": "@invalidcredentials",
-            "line": 18
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "The user opens the Login Page",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "The user write an invalid username 4536",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2200000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "The user write an invalid password 6426",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1199000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "The user submit his login",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2239000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "Log in using invalid credentials",
-        "tags": [
-          {
-            "name": "@invalidcredentials",
-            "line": 18
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "The user opens the Login Page",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "The user write an invalid username empty",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1259000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "The user write an invalid password rAA",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1172000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "The user submit his login",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2389000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 30,
-        "name": "Log in using invalid credentials",
-        "tags": [
-          {
-            "name": "@invalidcredentials",
-            "line": 18
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "The user opens the Login Page",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 58000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "The user write an invalid username acds",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2245000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "The user write an invalid password bdbds",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1211000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "The user submit his login",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2346000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 31,
-        "name": "Log in using invalid credentials",
-        "tags": [
-          {
-            "name": "@invalidcredentials",
-            "line": 18
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "The user opens the Login Page",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 38000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "The user write an invalid username radu.pop",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2266000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "The user write an invalid password empty",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1304000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "The user submit his login",
-            "match": {
-              "location": "features\\step_definitions\\LoginSteps-invalid.js:38"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2245000000
-            }
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "Feature",
-    "name": "Test Templates",
-    "line": 1,
-    "id": "test-templates",
-    "tags": [],
-    "uri": "features\\LogInTest\\testLogInTemplates.feature",
-    "elements": [
-      {
-        "id": "test-templates;choosing-a-different-language",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "Choosing a different language",
-        "tags": [
-          {
-            "name": "@templates",
-            "line": 3
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "The user open login page",
-            "match": {
-              "location": "features\\step_definitions\\LogInTemplates.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 25000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "The login page appear",
-            "match": {
-              "location": "features\\step_definitions\\LogInTemplates.js:8"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "The user choose the language romanian",
-            "match": {
-              "location": "features\\step_definitions\\LogInTemplates.js:17"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2610000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The user choose the language english",
-            "match": {
-              "location": "features\\step_definitions\\LogInTemplates.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2285000000
-            }
           }
         ]
       }

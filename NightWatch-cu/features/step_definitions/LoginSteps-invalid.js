@@ -5,7 +5,7 @@ const { Given, When, Then, And } = require("cucumber");
 Given(/^The user opens the Login Page$/, () => {
   return client.init();
 });
-When(/^The user write an invalid username (.*?)$/, username => {
+When(/^The user write an invalid username (.*?)$/, (username) => {
   client
     .waitForElementVisible(cssLib.LogInElements.usernameField(), 1000)
     .pause(1000)
@@ -20,18 +20,19 @@ When(/^The user write an invalid username (.*?)$/, username => {
       .pause(1000);
   }
 });
-When(/^The user write an invalid password (.*?)$/, password => {
+When(/^The user write an invalid password (.*?)$/, (password) => {
   client
     .waitForElementVisible(cssLib.LogInElements.passwordField(), 1000)
     .setValue(cssLib.LogInElements.passwordField(), password);
-  if (password === "empty") {
+  if (password === 'empty') {
     return client
       .clearValue(cssLib.LogInElements.passwordField())
       .waitForElementVisible(cssLib.LogInElements.errorPassword(), 1000)
       .pause(1000);
   } else {
-    return client.assert.value(cssLib.LogInElements.passwordField(), password)
-	    .pause(1000);
+    return client.assert
+      .value(cssLib.LogInElements.passwordField(), password)
+      .pause(1000);
   }
 });
 

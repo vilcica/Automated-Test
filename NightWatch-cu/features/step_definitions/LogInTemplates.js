@@ -7,8 +7,8 @@ Given(/^The user open login page$/, () => {
 });
 Then(/^The login page appear$/, () => {
   client
-    .waitForElementVisible("div._1orMd > div", 1000)
-    .assert.title("Timesheet")
+    .waitForElementVisible(cssLib.LogInElements.LogInbody(), 1000)
+    .assert.title('Timesheet')
     .waitForElementVisible(cssLib.LogInElements.usernameField(), 1000)
     .waitForElementVisible(cssLib.LogInElements.passwordField(), 1000)
     .waitForElementVisible(cssLib.LogInElements.buttonSubmit(), 1000)
@@ -21,7 +21,7 @@ When(/^The user choose the language romanian$/, () => {
     .click(cssLib.LogInElements.buttonRomanian())
     .pause(1000)
     .expect.element(cssLib.LogInElements.buttonSubmit())
-    .text.to.equal("Autentificare");
+    .text.to.equal('Autentificare');
 });
 Then(/The user choose the language english$/, () => {
   return client
@@ -30,5 +30,5 @@ Then(/The user choose the language english$/, () => {
     .click(cssLib.LogInElements.buttonEnglish())
     .pause(1000)
     .expect.element(cssLib.LogInElements.buttonSubmit())
-    .text.to.equal("Login");
+    .text.to.equal('Login');
 });
