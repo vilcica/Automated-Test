@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="Update LogIn test">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/maria_vilcica.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/Dashboard/Dashboard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/Timesheet/timesheet.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/Timesheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/chai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/karma.sauce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/assertion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/core/assertions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/assert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/expect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/interface/should.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addChainableMethod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addLengthGuard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addMethod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/addProperty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/compareByInspect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/expectTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/flag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getActual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getEnumerableProperties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getMessage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getOwnEnumerableProperties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getOwnEnumerablePropertySymbols.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/getProperties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/inspect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/isNaN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/isProxyEnabled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/objDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteChainableMethod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteMethod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/overwriteProperty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/proxify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/transferFlags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-assert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-expect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/register-should.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/chai/sauce.browsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/MenuTest/MenuTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/MenuTest/MenuTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/selectors/csslib.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/selectors/csslib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/LoginSteps-invalid.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/LoginSteps-invalid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/MenuTemplates.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/MenuTemplates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/logInSteps.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/logInSteps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/login-generic-step.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/login-generic-step.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_1337.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_3591.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_783.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_4508.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_8651.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_4583.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/chrome/MenuTest/Check-features-of-menus_ERROR_Aug-13-2019-151237-GMT+0300-(GTB-Daylight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/chrome/testLogIn/Log-in-using-valid-credentials_ERROR_Aug-09-2019-163244-GMT+0300-(GTB-Daylight.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_8532.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/chrome/testLogIn/Log-in-using-valid-credentials_ERROR_Aug-13-2019-140610-GMT+0300-(GTB-Daylight.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/chrome/testLogIn/Log-in-using-valid-credentials_ERROR_Aug-21-2019-141145-GMT+0300-(GTB-Daylight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/chrome/testLogIn/Log-in-using-valid-credentials_ERROR_Aug-13-2019-141602-GMT+0300-(GTB-Daylight.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/chrome/testLogIn/Log-in-using-valid-credentials_ERROR_Aug-21-2019-141805-GMT+0300-(GTB-Daylight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-debug.log" afterDir="false" />
-    </list>
+    <list default="true" id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="Update LogIn test" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
