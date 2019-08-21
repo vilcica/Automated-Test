@@ -14,8 +14,6 @@ Then(/^User enter username and password$/, () => {
 Then(/^User submit Login$/, () => {
   return client.click(csslib.LogInElements.buttonSubmit()).pause(1000);
 });
-    .pause(1000)
-});
 Then(/^User submit Login$/, () => {
   return client.click(csslib.LogInElements.buttonSubmit())
                .pause(1000);
