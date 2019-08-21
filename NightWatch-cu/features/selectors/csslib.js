@@ -1,7 +1,7 @@
 const csslib = {
   body: () => 'body',
   LogInElements: {
-    LogInbody: () => 'div._1orMd > div',
+    LogInbody: () => '#root > div > div > div:nth-child(2)',
     passwordField: () => 'input[name="password"]',
     usernameField: () => 'input[type=text]',
     buttonLogOut: () => '.log',
