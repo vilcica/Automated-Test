@@ -1,4 +1,4 @@
-@Menu
+@MenuTemplate
 Feature: Check if menu elements appear
 
   Background:

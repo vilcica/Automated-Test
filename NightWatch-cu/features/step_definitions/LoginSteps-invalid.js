@@ -10,7 +10,7 @@ When(/^The user write an invalid username (.*?)$/, (username) => {
     .waitForElementVisible(cssLib.LogInElements.usernameField(), 1000)
     .pause(1000)
     .setValue(cssLib.LogInElements.usernameField(), username);
-  if (username === "empty") {
+  if (username === 'empty') {
     return client
       .clearValue(cssLib.LogInElements.usernameField())
       .waitForElementVisible(cssLib.LogInElements.errorUsername(), 1000);

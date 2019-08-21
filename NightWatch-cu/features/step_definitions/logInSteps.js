@@ -17,12 +17,11 @@ When(/^The user write his password (.*?)$/, (password) => {
     .setValue(cssLib.LogInElements.passwordField(), password)
     .assert.value(cssLib.LogInElements.passwordField(), password);
 });
-
 Then(/^The user click logout$/, () => {
-  return client.waitForElementVisible(cssLib.LogInElements.buttonLogOut(), 1000)
-               .log(cssLib.LogInElements.buttonLogOut());
+  return client
+    .waitForElementVisible(cssLib.LogInElements.buttonLogOut(), 1000)
+    .click(cssLib.LogInElements.buttonLogOut());
 });
-
 Then(/^The user submit his Login$/, () => {
   return client.click(cssLib.LogInElements.buttonSubmit());
 });
