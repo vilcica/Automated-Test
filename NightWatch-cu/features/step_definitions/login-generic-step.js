@@ -6,20 +6,13 @@ Given(/^The login page is opening$/, () => {
   return client.init();
 });
 Then(/^User enter username and password$/, () => {
-  return client
-    .setValue(csslib.LogInElements.usernameField(), 'radu.pop')
-    .setValue(csslib.LogInElements.passwordField(), 'test')
-<<<<<<< HEAD
-    .pause(1000);
+	client.waitForElementVisible(csslib.LogInElements.usernameField(),5000, function () {
+		return client
+			.setValue(csslib.LogInElements.usernameField(), 'radu.pop')
+			.setValue(csslib.LogInElements.passwordField(), 'test')
+			.pause(1000);
+	});
 });
 Then(/^User submit Login$/, () => {
   return client.click(csslib.LogInElements.buttonSubmit()).pause(1000);
 });
-=======
-    .pause(1000)
-});
-Then(/^User submit Login$/, () => {
-  return client.click(csslib.LogInElements.buttonSubmit())
-               .pause(1000);
-});
->>>>>>> 968a5ccf170220254a0b580941e660899281147f

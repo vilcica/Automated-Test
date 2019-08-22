@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="Update LogIn test" />
+    <list default="true" id="086c1ce5-8dde-4f64-ae8d-8e442b90ad44" name="Default Changelist" comment="Update LogIn test">
+      <change afterPath="$PROJECT_DIR$/reports/screenshots/The_user_click_logout_8498.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/screenshots/User_add_an_absence_request_5286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-120547-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-121155-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-121447-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-121603-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-121801-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-121825-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-122112-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-122559-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-122946-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-123041-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-123124-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-123726-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-123858-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-124126-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-124157-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-124246-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-124432-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-125737-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130014-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130031-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130100-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130123-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130550-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-130758-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-131450-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-131519-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-131618-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-133913-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-134247-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-134303-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-135004-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-140106-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/chrome/timesheet/User-use-Timesheet-page_ERROR_Aug-22-2019-141231-GMT+0300-(GTB-Daylight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/MenuTest/MenuTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/MenuTest/MenuTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/selectors/csslib.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/selectors/csslib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/Timesheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/Timesheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/login-generic-step.js" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/login-generic-step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber_report.html.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber_report.html.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/selenium-debug.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +150,11 @@
       <workItem from="1566376150046" duration="8083000" />
       <workItem from="1566384872628" duration="440000" />
       <workItem from="1566385431486" duration="383000" />
-      <workItem from="1566385834433" duration="1559000" />
+      <workItem from="1566385834433" duration="2580000" />
+      <workItem from="1566392309138" duration="527000" />
+      <workItem from="1566463002787" duration="3648000" />
+      <workItem from="1566466699850" duration="387000" />
+      <workItem from="1566467822090" duration="4007000" />
     </task>
     <task id="LOCAL-00001" summary="Update LogIn test">
       <created>1565775843261</created>

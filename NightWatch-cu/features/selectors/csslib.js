@@ -48,8 +48,9 @@ const csslib = {
     PresetEventsbutton: () => 'div:nth-child(1) > button',
     DeletePresetEvent: () => ' div:nth-child(2) > div:nth-child(2) > button',
     AddpresetEvents: () => '#root > div.active > div',
+    AddpresetEventsButton: () => 'form > div > div:nth-child(4) > div',
     StartDateEvent: () =>
-      ' div:nth-child(1) > div.field.input > div > div > div > button > span > span',
+      'div:nth-child(1) > div.field.input > div > div > div > button > span > span',
     EndDateEvent: () =>
       'div:nth-child(2) > div.field.input > div > div > div > button > span> span',
     CalendarEventStart: () => '[role=presentation]>[tabindex="0"]',
@@ -70,7 +71,7 @@ const csslib = {
     SaveButton: () => 'div:nth-child(7) > div > button',
 		Warninghour: () => 'div:nth-child(2) > div.ui.red.pointing.basic.label',
     Eventshow: () => '.rbc-event .container-fluid',
-	  Eventadd: () => 'body > div > div > span > span',
+	  Eventadd: () => '.green.check.large.icon',
     AbsenceButton: () => 'div.ui> a:nth-child(2)',
     AbsenceTypeChoice: () => '[aria-selected=false]',
     AbsenceType: () => 'div:nth-child(3) > div > div.field.dropDown',
