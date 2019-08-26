@@ -62,12 +62,6 @@ When(/^Select a day from calendar to add work log$/, () => {
 Then(/^Add one work log$/, () => {
   client
     .waitForElementVisible(
-      cssLib.Timesheet.WorkloadTimeSpent(), 1000, function() {
-        return client
-          .clearValue(cssLib.Timesheet.WorkloadTimeSpent())
-          .setValue(cssLib.Timesheet.WorkloadTimeSpent(), "10h");
-      })
-    .waitForElementVisible(
       cssLib.Timesheet.WorkloadTimeSpent(),
       1000,
       function() {

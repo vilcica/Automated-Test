@@ -1,6 +1,160 @@
 [
   {
     "keyword": "Feature",
+    "name": "Contacts page",
+    "line": 2,
+    "id": "contacts-page",
+    "tags": [
+      {
+        "name": "@Contacts",
+        "line": 1
+      }
+    ],
+    "uri": "features\\Contacts\\Contacts.feature",
+    "elements": [
+      {
+        "id": "contacts-page;the-user-search-contacts",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "The user search contacts",
+        "tags": [
+          {
+            "name": "@Contacts",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The login page is opening",
+            "match": {
+              "location": "features\\step_definitions\\login-generic-step.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User enter username and password",
+            "match": {
+              "location": "features\\step_definitions\\login-generic-step.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User submit Login",
+            "match": {
+              "location": "features\\step_definitions\\login-generic-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "The user push the button Contacts",
+            "match": {
+              "location": "features\\step_definitions\\contacts.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The user use advance search",
+            "match": {
+              "location": "features\\step_definitions\\contacts.js:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The user verify the results",
+            "match": {
+              "location": "features\\step_definitions\\contacts.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1400000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user search for a contact",
+            "match": {
+              "location": "features\\step_definitions\\contacts.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The user click on the contact for details",
+            "match": {
+              "location": "features\\step_definitions\\contacts.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 864000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.js:13"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
     "name": "Timesheet page",
     "line": 2,
     "id": "timesheet-page",

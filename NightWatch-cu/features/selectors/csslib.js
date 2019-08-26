@@ -18,6 +18,7 @@ const csslib = {
     leftMenubody: () => '#root > div > div:nth-child(1) > div',
     dashboardButton: () => '.home',
     timesheetButton: () => '.calendar.alternate',
+    contactButton: () => ' a:nth-child(6)> div',
     TimetrackingButton: () =>
       '#root > div > div:nth-child(1) > div > a:nth-child(4) > div > i',
     absencesButton: () =>
@@ -79,6 +80,19 @@ const csslib = {
     ReplacerButton: () => 'div[name=replacerId] .search[tabindex=\'0\'][type=text]',
     PhoneNumber: () => '[placeholder=\'Phone Number\']',
     Motivation: () => 'div > div.field.input > textarea'
-  }
+  },
+  Contacts: {
+    SearchContact: () => '[placeholder=\'Search Contacts\']',
+    SearchContentName: () => '.content .header',
+    SearchButton: () => 'div > div> button > i',
+    ContactField: () => 'div:nth-child(3) > div > div:nth-child(1) > div > div',
+    ContactDetails: () => 'div:nth-child(1) > div:nth-child(1) > div > div.row',
+    SearchContentPosition: () => 'div > div > div.description > div:nth-child(1)',
+    PositionField: () => 'div:nth-child(5) > div.field.dropDown > div > input',
+    PositionChoose: () => 'div.visible> div:nth-child(2) > span',
+    AdvanceSearchButton: () => '.row > div:nth-child(3) > button',
+    NextButton: () => ' div > div > a:nth-child(6)'
+
+}
 };
 module.exports=csslib;
